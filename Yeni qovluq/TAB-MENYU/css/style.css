@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+#tab-menu .menu {
+    display: flex;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+#tab-menu .menu div {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition:background 0.5s;
+}
+#tab-menu .menu div:hover{
+    background-color:  gray;
+}
+#tab-menu .content{
+border: 1px solid #ccc;
+border-top: none;
+}
+#tab-menu .content div{
+padding: 40px;
+}
+.selected{
+    background-color: gray;
+}
+

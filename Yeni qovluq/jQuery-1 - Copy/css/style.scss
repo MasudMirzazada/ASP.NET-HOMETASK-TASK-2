@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFBFC;
+}
+
+.box{
+    width: 19%;
+    border: 1px solid #def9ec;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px #f1f1f1;
+    .top{
+        position: relative;
+        span{
+            font-size: 12px;
+            padding: 2px 10px;
+            border-radius: 5px 0 5px 0;
+            top: 0;
+            left: 0;
+            background-color: green;
+            color: #fff;
+            position: absolute;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .bottom{
+        .prod-cat{
+            font-size: 12px;
+            color: #ADADAD;
+        }
+        .prod-name{
+            font-size: 1rem;
+            color: #253d4e;
+        }
+        .star{
+            color: yellow;
+            font-size: 12px;
+        }
+        .comp-name{
+            color: green;
+            font-size: 12px;
+        }
+        button{
+            background-color: #def9ec;
+            color: green;
+            padding: 3px;
+            font-size: 12px;
+            border: 1px solid #def9ec;
+        }
+    }
+}

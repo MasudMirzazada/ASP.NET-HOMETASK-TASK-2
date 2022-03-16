@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 5000px;
+}
+
+#header {
+    padding: 0 20rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#header .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+#header .header-top .links {
+    display: flex;
+}
+
+#header .header-top .links li {
+    margin-right: 20px;
+}
+
+#header .header-top .links li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    transition: color .4s;
+}
+
+#header .header-top .links li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#header .header-top .socials i {
+    color: white;
+    margin-left: 20px;
+    transition: color .4s;
+    cursor: pointer;
+}
+
+#header .header-top .socials i:hover {
+    color: #3065b5;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+.header-bottom .logo img {
+    width: 100%;
+}
+
+.header-bottom nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    transition: color .4s;
+}
+
+.header-bottom nav ul li:hover a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.header-bottom .right {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom .search {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    margin-left: 20px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.header-bottom .search:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-bottom .search i {
+    color: white;
+}
+
+#slider {
+    height: 545px;
+}
+
+#slider .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#slider .image .text {
+    position: absolute;
+    top: 40%;
+    padding-left: 20rem;
+    color: #fff;
+}
+
+#slider .image .text p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#slider .image .text h1 {
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+#slider .image .text .links a {
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#contact {
+    padding: 25px 20rem 90px;
+    background: #FBFBFB;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#contact .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .contact-wrapper .contact-item {
+    display: flex;
+}
+
+#contact .contact-wrapper .contact-item .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+#contact .contact-wrapper .contact-item .icon i {
+    color: #3065b5;
+    font-size: 32px;
+}
+
+#contact .contact-wrapper .contact-item .info p:first-child {
+    margin-bottom: 20px;
+    color: rgba(58, 58, 58, 0.6);
+}
+
+#contact .contact-wrapper .contact-item .info p:last-child {
+    color: #2a2d32;
+    font-size: 20px;
+}
+
+#info {
+    padding: 0 20rem;
+}
+
+#info .cards {
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+}
+
+#info .cards .single-card {
+    background-color: grey;
+    width: calc(100%/3);
+    padding: 40px;
+}
+
+#info .cards .single-card:nth-child(1) {
+    background-color: #3EB8D7;
+}
+
+#info .cards .single-card:nth-child(2) {
+    background-color: #0392CE;
+}
+
+#info .cards .single-card:nth-child(3) {
+    background-color: #3065B5;
+}
+
+#info .cards .single-card h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#info .cards .single-card p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 2;
+}
+
+#info .cards .single-card a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.8rem 18px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#info .cards .single-card ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#info .cards .single-card ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    align-items: center;
+    padding: 10px 0;
+}

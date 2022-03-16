@@ -1,0 +1,16 @@
+img{
+  width: 100%;
+  height: 300px;
+}
+
+.slide-box{
+  padding: 15px;
+}
+
+.slick-prev,.slick-next{
+  background-color: red;
+}
+
+.slick-prev::before{
+  font-size: 30px;
+}

@@ -1,0 +1,8 @@
+img{
+    width: 100%;
+}
+ #user{
+     justify-content:  center;
+     display: flex;
+     padding: 0;
+ }

@@ -1,0 +1,21 @@
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).exe
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).deps.json
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).runtimeconfig.json
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).runtimeconfig.dev.json
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).dll
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\bin\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).pdb
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).AssemblyInfo.cs
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\staticwebassets\FirstWebApp  (lesson 1 Asp).StaticWebAssets.Manifest.cache
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\staticwebassets\FirstWebApp  (lesson 1 Asp).StaticWebAssets.xml
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\scopedcss\bundle\FirstWebApp  (lesson 1 Asp).styles.css
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).RazorTargetAssemblyInfo.cache
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).dll
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).pdb
+C:\Users\HP\Desktop\ASP.Net\FirstWebApp  (lesson 1 Asp)\FirstWebApp  (lesson 1 Asp)\obj\Debug\netcoreapp3.1\FirstWebApp  (lesson 1 Asp).genruntimeconfig.cache

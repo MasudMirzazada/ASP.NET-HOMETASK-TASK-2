@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main .container .row .accordion-wrapper1,
+main .container .row .accordion-wrapper2 {
+  border: 1px solid #d8dee5;
+  border-radius: 10px;
+}
+
+main .container .row .accordion-wrapper1 .accordion .header,
+main .container .row .accordion-wrapper2 .accordion .header {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 26px 40px 26px 40px;
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #d8dee5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .row .accordion-wrapper1 .accordion .header p,
+main .container .row .accordion-wrapper2 .accordion .header p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main .container .row .accordion-wrapper1 .accordion .header i,
+main .container .row .accordion-wrapper2 .accordion .header i {
+  font-size: 20px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+main .container .row .accordion-wrapper1 .accordion .header.header-active i,
+main .container .row .accordion-wrapper2 .accordion .header.header-active i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+main .container .row .accordion-wrapper1 .accordion .body,
+main .container .row .accordion-wrapper2 .accordion .body {
+  height: 0;
+  padding: 0 85px;
+  overflow: hidden;
+  -webkit-transition: padding .3s linear;
+  transition: padding .3s linear;
+}
+
+main .container .row .accordion-wrapper1 .accordion .body p,
+main .container .row .accordion-wrapper2 .accordion .body p {
+  margin: 0;
+  color: #606060;
+}
+
+main .container .row .accordion-wrapper1 .accordion .body.body-active,
+main .container .row .accordion-wrapper2 .accordion .body.body-active {
+  -webkit-animation: slidedown .3s linear forwards;
+          animation: slidedown .3s linear forwards;
+  padding: 85px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.custom-modal {
+  border: 2px solid khaki;
+  border-radius: 10px;
+  padding: 20px 40px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  color: white;
+  z-index: 4;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.custom-modal .header {
+  text-align: center;
+}
+
+.custom-modal .body {
+  padding: 5px;
+}
+
+.custom-modal .footer {
+  padding: 5px;
+}
+
+.custom-modal.visible {
+  opacity: 1;
+  visibility: visible;
+  top: 100px;
+}
+
+@-webkit-keyframes slidedown {
+  from {
+    height: 0;
+  }
+  to {
+    height: auto;
+  }
+}
+
+@keyframes slidedown {
+  from {
+    height: 0;
+  }
+  to {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
